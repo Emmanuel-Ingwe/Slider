@@ -64,6 +64,7 @@ h4 {
 }
 .slide h1 {
   font-size: 5rem;
+  color: aliceblue;
 }
 .person-img {
   border-radius: 50%;
@@ -81,6 +82,9 @@ h4 {
 .slide:nth-child(3) {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./img-2.jpeg") center/cover no-repeat;
+}
+.slide:nth-child(4) img{
+  padding-top: 90px;
 }
 .btn-container {
   display: flex;
