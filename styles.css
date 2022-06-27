@@ -110,7 +110,7 @@ h4 {
 
 @media screen and (min-width: 576px) {
   .slider-container {
-    height: 45vh;
+    height: 45.5vh;
   }
 }
 @media screen and (min-width: 768px) {
