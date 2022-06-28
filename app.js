@@ -3,5 +3,6 @@ const nextBtn = document.querySelector('.nextBtn');
 const prevBtn = document.querySelector('.prevBtn');
 
 slides.forEach(function (slide, index) {
-    slide.
+    slide.style.left = `${index * 100}%`;
 });
+
