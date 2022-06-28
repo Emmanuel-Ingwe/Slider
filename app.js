@@ -14,3 +14,9 @@ nextBtn.addEventListener("click", function () {
 prevBtn.addEventListener('click', () => {
     counter--;
 });
+
+function carousel() {
+    slides.forEach((slide) => {
+        slide.style.transform = `translateX(-${counter})`;
+    });
+}
